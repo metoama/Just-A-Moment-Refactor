@@ -3,7 +3,7 @@ var n = date.toDateString();
 var time = date.toLocaleTimeString('en-US', {
     day: 'numeric',
     month: 'short',
-    years: 'numeric'
+    year: 'numeric'
 });
 var currentHour = date
 //var today = moment();
